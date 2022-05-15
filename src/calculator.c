@@ -1,19 +1,30 @@
 #include <stdio.h>
-
+char op;
+double a, b, c;
 
 void calculate(){
-  char op;
-  double a, b, c;
+  printf("type a operator: ");
+  scanf(" %c", &op);
   printf("type a number: ");
   scanf("%lf", &a);
   printf("type another number: ");
   scanf("%lf", &b);
-  printf("type a operator: ");
-  scanf("%c", &op);
-
   switch(op){
     case '+':
       c = a + b;
-      printf("%f + %f = %f", a, b, c);
+      printf("%lf + %lf = %lf\n", a, b, c);
+    break;
+    case '-':
+      c = a - b;
+      printf("%lf - %lf = %lf\n", a, b, c);
+    break;  
+    case '*':
+      c = a * b;
+      printf("%lf * %lf = %lf\n", a, b, c);
+    break;
+    case '/':
+      c = a / b;
+      printf("%lf / %lf = %lf\n", a, b, c);
+    break;
   }
 }
