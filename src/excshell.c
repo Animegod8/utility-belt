@@ -2,12 +2,10 @@
 #include <stdlib.h>
 
 
-
 int system(const char* command);
 
 void commandPrompt(){
-  char* cmd;
-  printf("Type a shell command here: ");
-  scanf("%s", cmd);
-  //system(/*insert command here*/);
+  system("echo type a command");
+  system("read cmd; $cmd");
+  //system("$cmd");
 }
