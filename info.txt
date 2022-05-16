@@ -1,0 +1,5 @@
+Developer Utilitie: V1,
+a command prompt, calculator and more to be added
+
+Repo statis: Maintained
+Commit frequency: semi-frequent to frequent.
