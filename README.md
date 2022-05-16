@@ -7,7 +7,7 @@ Calculator
 
 run shell commands
 end of list
-
+Newly added: Info about the project
 # statis of activity
 
 this is still being maintained with semi-regular to regular commits being added to the repo
